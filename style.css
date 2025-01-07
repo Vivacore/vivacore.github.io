@@ -1,0 +1,136 @@
+@media only screen and (max-width: 600px) {
+    .headlinerFontSize { font-size: 150%; }
+    .subtitleFontSize { font-size: 60%; }
+} 
+
+@media only screen and (min-width: 600px) {
+    .headlinerFontSize { font-size: 300%; }
+    .subtitleFontSize { font-size: 80%; }
+} 
+
+@media only screen and (min-width: 768px) {
+    .headlinerFontSize { font-size: 350%; }
+    .subtitleFontSize { font-size: 100%; }
+} 
+
+@media only screen and (min-width: 992px) {
+    .headlinerFontSize { font-size: 400%; }
+    .subtitleFontSize { font-size: 130%; }
+} 
+
+@media only screen and (min-width: 1200px) {
+    .headlinerFontSize { font-size: 400%; }
+    .subtitleFontSize { font-size: 130%; }
+}
+
+::-webkit-scrollbar { width: 0px; }
+
+.body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* ================== */
+/* BACKGROUND CLASSES */
+.blackBackground { background-color: rgb(16, 14, 23); }
+
+
+/* ===================== */
+/* CONTACT ICONS CLASSES */
+.contactIcons { 
+    color: rgb(53, 53, 53);;
+    width: 10%;
+    margin: 1%;
+}
+.contactIcons:hover { transform: scale(1.5) };
+
+.fa-file-pdf { color: rgb(255, 0, 0); }
+.fa-linkedin { color: rgb(0, 102, 153); }
+.fa-dev { color: rgba(0, 82, 122, 0.795); }
+.fa-envelope-square { color: black }
+.fa-github { color: rgb(53, 53, 53); }
+
+
+/* =================== */
+/* CUSTOM FONT CLASSES */
+@font-face {
+    font-family: 'Raleway300';
+    src: url('Fonts/raleway-v12-latin-300.ttf'),
+    url('Fonts/raleway-v12-latin-300.eot');
+}
+
+@font-face {
+    font-family: 'Raleway500';
+    src: url('Fonts/raleway-v12-latin-500.ttf'),
+    url('Fonts/raleway-v12-latin-500.eot');
+}
+
+.Raleway300 { font-family: 'Raleway300', Times, serif; }
+.Raleway500 { font-family: 'Raleway500', Times, serif; }
+
+
+/* ============== */
+/* NAVBAR CLASSES */
+.currentNavbarAnchor {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.currentNavbarAnchorWhite {
+    border-bottom: 1px solid white;
+}
+
+.logo { 
+    transform: scale(1.5);
+    height: 5%;
+    width: 5%;
+}
+
+
+/* ================ */
+/* PROJECTS CLASSES */
+.contactButtons:hover {
+    transform: scale(1.3);
+}
+
+.devpostThumbnails:hover {
+     opacity: 0.5;
+}
+
+.projectCards:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px 0 rgb(255, 255, 255);
+}
+
+
+/* =============== */
+/* SPACING CLASSES */
+.skillButtonSpacing {
+    margin: 1%;
+}
+
+
+/* ================== */
+/* TEXT COLOR CLASSES */
+.blueText { color: rgb(0, 158, 255); }
+.whiteText { color: white; }
+.purpleBorder { 
+    color: rgb(119, 0, 255) !important; 
+    border-color:  rgb(119, 0, 255) !important; 
+}
+.purpleBorder:hover { 
+    color: rgb(255, 255, 255) !important; 
+    background-color: rgb(119, 0, 255) !important; 
+}
+
+
+/* ================= */
+/* TEXT SIZE CLASSES */
+.headlinerFontSize { font-size: 400%; }
+
+.subtitleFontSize { font-size: 130%; }
+.subtitleFontSize:hover { color: rgb(0, 158, 255); }
